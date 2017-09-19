@@ -4,7 +4,7 @@
     android:id="@+id/activity_qingbao_add"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="tuo.com.xiangmutest.QingbaoAdd"
+    tools:context="tuo.com.xiangmutest.QBBZ.QingbaoAdd"
     android:orientation="vertical"
     >
 
@@ -43,7 +43,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/picture_add"
-            android:background="@drawable/加号"
+            android:background="@drawable/jiahao"
             android:layout_gravity="center_horizontal"
             />
 
@@ -72,7 +72,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/加号"
+            android:background="@drawable/jiahao"
             android:layout_gravity="center_horizontal"
             android:id="@+id/video_add"/>
         <VideoView

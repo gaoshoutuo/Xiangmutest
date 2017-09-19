@@ -1,13 +1,15 @@
-package tuo.com.xiangmutest;
+package tuo.com.xiangmutest.QBBZ;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class QingbaoHistory extends AppCompatActivity {
+import tuo.com.xiangmutest.R;
+
+public class QingbaoAdd extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_qingbao_history);
+        setContentView(R.layout.activity_qingbao_add);
     }
 }

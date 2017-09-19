@@ -1,4 +1,4 @@
-package tuo.com.xiangmutest;
+package tuo.com.xiangmutest.QBBZ;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +15,7 @@ import java.io.IOException;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import tuo.com.xiangmutest.R;
 
 public class MainActivity extends AppCompatActivity {
 

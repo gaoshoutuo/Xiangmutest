@@ -1,7 +1,6 @@
-package tuo.com.xiangmutest;
+package tuo.com.xiangmutest.QBBZ;
 
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,10 +11,11 @@ import android.widget.ImageView;
 import java.util.ArrayList;
 import java.util.List;
 
-import tuo.com.xiangmutest.Model.QingbaoTitle;
+import tuo.com.xiangmutest.Model.IntelligenceTitle;
+import tuo.com.xiangmutest.R;
 
 public class QBBZ extends AppCompatActivity implements View.OnClickListener{
-     public List<QingbaoTitle> lists=new ArrayList<>();
+     public List<IntelligenceTitle> lists=new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

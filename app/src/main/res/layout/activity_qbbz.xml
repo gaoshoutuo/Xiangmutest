@@ -4,7 +4,7 @@
     android:id="@+id/activity_qbbz"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="tuo.com.xiangmutest.QBBZ"
+    tools:context="tuo.com.xiangmutest.QBBZ.QBBZ"
     android:orientation="vertical">
 
 
@@ -30,7 +30,7 @@
         <ImageView
             android:layout_width="20dp"
             android:layout_height="match_parent"
-            android:src="@mipmap/加号"
+            android:src="@mipmap/jiahao"
             android:layout_gravity="end"
             android:id="@+id/qingbao_add"
             />

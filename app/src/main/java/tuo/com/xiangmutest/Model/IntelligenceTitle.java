@@ -4,7 +4,7 @@ package tuo.com.xiangmutest.Model;
  * Created by colorful on 2017-09-18.
  */
 
-public class QingbaoTitle {
+public class IntelligenceTitle {
    private String content;
    private int resourceId;
 
@@ -24,7 +24,7 @@ public class QingbaoTitle {
         this.resourceId = resourceId;
     }
 
-    public QingbaoTitle(String content, int resourceId) {
+    public IntelligenceTitle(String content, int resourceId) {
         this.content = content;
         this.resourceId = resourceId;
     }
