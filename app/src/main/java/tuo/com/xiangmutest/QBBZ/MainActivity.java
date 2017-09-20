@@ -1,5 +1,6 @@
 package tuo.com.xiangmutest.QBBZ;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -27,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sendRequestWithOkhttp();
+                Intent intent=new Intent(MainActivity.this,QingbaoAdd.class);
+                startActivity(intent);
             }
         });
     }

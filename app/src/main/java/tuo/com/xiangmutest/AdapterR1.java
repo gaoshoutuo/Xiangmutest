@@ -5,6 +5,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,44 +24,32 @@ public class AdapterR1 extends RecyclerView.Adapter<AdapterR1.ViewHolder> {
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+       View view =LayoutInflater.from(parent.getContext()).inflate(R.layout.item_qingbao,parent,false);
+        ViewHolder holder=new ViewHolder(view);
         return null;
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-
+        IntelligenceTitle ig=lists1.get(position);
+            holder.textView.setText(ig.getTitle());
     }
 
     @Override
     public int getItemCount() {
-        if(lists1.size()!=0){
+
             return lists1.size();
-        }
-        return 0;
+
     }
 
 
     static class ViewHolder extends RecyclerView.ViewHolder{
-
-        private View mConvertView;
-        private Context mContext;
-
+        TextView textView;
+        ImageView imageView;
         public ViewHolder(View itemView) {
             super(itemView);
-        }
-        public <T extends View> T getView(int viewId)
-        {
-
-
-            return (T) view;
-        }
-        public static ViewHolder get(Context context, ViewGroup parent, int layoutId)
-        {
-
-            View itemView = LayoutInflater.from(context).inflate(layoutId, parent,
-                    false);
-            ViewHolder holder = new ViewHolder(context, itemView, parent, position);
-            return holder;
+           textView=(TextView)itemView.findViewById(R.id.item_text);
+            imageView=(ImageView)itemView.findViewById(R.id.item_id);
         }
 
     }

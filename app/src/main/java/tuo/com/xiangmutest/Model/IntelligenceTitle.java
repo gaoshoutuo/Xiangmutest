@@ -5,15 +5,20 @@ package tuo.com.xiangmutest.Model;
  */
 
 public class IntelligenceTitle {
-   private String content;
+   private String title;
    private int resourceId;
 
-    public String getContent() {
-        return content;
+    public IntelligenceTitle(String title, int resourceId) {
+        this.title = title;
+        this.resourceId = resourceId;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public int getResourceId() {
@@ -21,11 +26,6 @@ public class IntelligenceTitle {
     }
 
     public void setResourceId(int resourceId) {
-        this.resourceId = resourceId;
-    }
-
-    public IntelligenceTitle(String content, int resourceId) {
-        this.content = content;
         this.resourceId = resourceId;
     }
 }
